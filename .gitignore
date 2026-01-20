@@ -39,3 +39,17 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Firebase
+.firebase/
+firebase-debug.log
+firebase-debug.*.log
+.firebaserc.local
+functions/lib/
+functions/node_modules/
+*.local
+
+# Cloud Run
+cloud-run/__pycache__/
+cloud-run/*.pyc
+cloud-run/.env
